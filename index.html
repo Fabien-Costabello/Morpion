@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morpion</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header><div class="centre">
+      <img src="./assets/img/_1920x1280-03-removebg-preview (1).png" alt="">
+      <h1>Morpion</h1>
+      <img src="./assets/img/_1920x1280-03-removebg-preview (1).png" alt="">
+    </div>
+      <nav>
+        <button onclick="JvsJFalse()">Joueur VS Ordinateur</button>
+        <button onclick="JvsJTrue()">Joueur VS Joueur</button>
+        <button onclick="puissanceQuatre()">Puissance 4 </button>
+        <button onclick="window.location.reload()">Recommencer</button>
+      </nav>
+    </header>
+    <main>
+      <section class="game">
+        <div id="grid"></div>
+      </section>
+      <div id="result" class="hidden"></div>
+    </main>
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
